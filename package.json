@@ -1,0 +1,25 @@
+{
+  "name": "self_instructor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umang39/self_instructor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umang39/self_instructor/issues"
+  },
+  "homepage": "https://github.com/umang39/self_instructor#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.6"
+  }
+}
