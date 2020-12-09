@@ -1,0 +1,41 @@
+body{
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0%;
+}
+.container{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height:300px ;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    box-shadow: 0px 0px 10px 4px #333333;
+}
+.box{
+    position: absolute;
+    width: 40%;
+    margin: 5%;
+}
+.box1{
+    position: absolute;    
+    float:right;
+    right: 0;
+}
+.box1 > img {
+    transform: rotate(180deg);
+    /* box-shadow: 0px 0px 10px 4px white; */
+}
+.intro{
+    margin-bottom: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.current_position{
+    font-family: 'Courier New', Courier, monospace;
+    color: chocolate;
+}
